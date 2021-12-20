@@ -16,3 +16,6 @@ for row in data :
 f.close()
 print(min_date, min_temp)
 print('홍천군 최저 기온이 가장 낮았던 날은',min_date,+'로', min_temp,'도 였습니다.')
+
+
+https://mybinder.org/v2/gh/ipython/ipython-in-depth/b2f9442aa52118dec44ccb0ee749ea63ac578bba?filepath=Downloads.ipynb
