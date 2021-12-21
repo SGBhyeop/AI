@@ -1,0 +1,14 @@
+import csv
+import matplotlib.pyplot as plt
+
+f = open('hong.csv')
+data = csv.reader(f)
+next(data)
+high = [] # 최고 기온 값을 저장할 리스트 생성
+low = []
+
+for row in data :
+    if row[-1] != '' and row[-2] != '' :
+        date = row[0].split('-')
+        if 1983 <= int(date[0]) :
+            if date[1] == '02' and date[2] == '14' :
